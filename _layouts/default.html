@@ -4,16 +4,16 @@
     <title>XML Documentation</title>
     <meta content='text/html;charset=utf-8' http-equiv='Content-Type' />
     <meta content='width=device-width, initial-scale=1.0' name='viewport' />
-    <link href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' />
+    <link href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css' rel='stylesheet' />
     <link href='/css/style.css' rel='stylesheet' />
     <link href='/css/custom-highlight.css' rel='stylesheet' />
     <link href='/img/favicon.ico' rel='shortcut icon' type='image/x-icon' />
     <link href='/img/favicon.ico' rel='apple-touch-icon' type='image/x-icon' />
     <link href='//fonts.googleapis.com/css?family=Lato:700,400,300' rel='stylesheet' />
-    <link href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet' />
-    <script src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js'></script>
-    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
-    <script src='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <link href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' />
+    <script src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.5/highlight.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js'></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script>$(function () { $("[data-toggle='tooltip']").tooltip(); });</script>
     <script>$(document).ready(function() { $('span.highlight > code').each(function(i, block) {hljs.highlightBlock(block);}); });</script>
@@ -69,6 +69,15 @@
         </nav>
       </div>
     </header>
+    <div class="container">
+      <div class="alert alert-danger alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <strong>Attention</strong><br />
+        This website is no longer maintained as it is intended for PGM used by Overcast Network from 2012 to 2017. Please visit the new website at <a href="https://pgm.dev"/>https://pgm.dev</a> for documentation covering modern versions of PGM.
+        <br /><br />
+        For archival purposes, this website will be in read-only mode. However, we cannot ensure its availability in the future.
+      </div>
+    </div>
     {{ content }}
     <div class='container'>
       <hr />
@@ -82,9 +91,6 @@
           </li>
           <li class="pull-right">
             <a href="https://twitter.com/OvercastPGM" target="_blank">Twitter</a>
-          </li>
-          <li class="pull-right">
-            <a href="https://discord.gg/PGM" target="_blank">Discord</a>
           </li>
           <li class="pull-right">
             <a href="https://www.reddit.com/r/overcast/" target="_blank">Reddit</a>
